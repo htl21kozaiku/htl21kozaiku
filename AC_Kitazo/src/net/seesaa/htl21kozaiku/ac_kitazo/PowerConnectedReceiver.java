@@ -5,7 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.widget.Toast;
 
-public class PowerReceiver extends BroadcastReceiver {
+public class PowerConnectedReceiver extends BroadcastReceiver {
 	@Override
 	public void onReceive(Context context, Intent intent) {
 		if (Intent.ACTION_POWER_CONNECTED.equals(intent.getAction())) {
