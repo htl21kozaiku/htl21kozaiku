@@ -15,8 +15,7 @@
         android:theme="@style/AppTheme" >
         
         <receiver
-			android:name=".PowerConnectedReceiver"
-		>
+			android:name=".PowerConnectedReceiver" >
 			<intent-filter>
 				<action
 					android:name="android.intent.action.ACTION_POWER_CONNECTED" />
